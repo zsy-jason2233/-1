@@ -20,16 +20,13 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr mingyue_t_;
     int i=0,j=0;
-    //传输
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr mingyue_t2_;
     void command_callback(const std_msgs::msg::String::SharedPtr msg) {
         if(msg->data == "boat")
         j++;
         RCLCPP_INFO(this->get_logger(),"我们做的船负重达到%dKg ",j);
     }
-    //接收 
 };
-//定义名字 开启节点 
 int main(int argc,char **argv) {
     rclcpp::init(argc,argv);
     auto node = std::make_shared<t>("niluo");
