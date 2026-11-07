@@ -1,0 +1,21 @@
+[01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:6:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+    6 |     [01;31m[Ki[m[K++;
+      |     [01;31m[K^[m[K
+[01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:[m[K In constructor ‘[01m[Kt::t(std::string)[m[K’:
+[01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmingyue_t_[m[K’ was not declared in this scope
+    9 |         [01;31m[Kmingyue_t_[m[K=this->create_publisher<std_msgs::msg::String>("mingyue",10);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:[m[K In member function ‘[01m[Kvoid t::timer_callback()[m[K’:
+[01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmingyue_t_[m[K’ was not declared in this scope
+   18 |         [01;31m[Kmingyue_t_[m[K->publish(message1);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_student.cpp:[m[K In member function ‘[01m[Kvoid s::command_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_student.cpp:14:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+   14 |         if(msg->data == "mingyue") [01;31m[Kspeed[m[K=0.2f;
+      |                                    [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/work01_teacher.dir/build.make:76: CMakeFiles/work01_teacher.dir/src/work01_teacher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/work01_teacher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/work01_student.dir/build.make:76: CMakeFiles/work01_student.dir/src/work01_student.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/work01_student.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

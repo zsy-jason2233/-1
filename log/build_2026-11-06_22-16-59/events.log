@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000349] (work01) JobQueued: {'identifier': 'work01', 'dependencies': OrderedDict()}
+[0.000411] (work01) JobStarted: {'identifier': 'work01'}
+[0.010371] (work01) JobProgress: {'identifier': 'work01', 'progress': 'cmake'}
+[0.013070] (work01) JobProgress: {'identifier': 'work01', 'progress': 'build'}
+[0.015268] (work01) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jason/ros2_learning/work01/build/work01', '--', '-j2', '-l2'], 'cwd': '/home/jason/ros2_learning/work01/build/work01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/ros2_learning'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jason-virtual-machine:@/tmp/.ICE-unix/1415,unix/jason-virtual-machine:/tmp/.ICE-unix/1415'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b23eb0bd_e760_49cb_b1af_d43dc4aa6455'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2NMBY3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.272'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/ros2_learning/work01/build/work01'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099343] (-) TimerEvent: {}
+[0.138277] (work01) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target work01_teacher\x1b[0m\n'}
+[0.146002] (work01) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target work01_student\x1b[0m\n'}
+[0.177993] (work01) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/work01_student.dir/src/work01_student.cpp.o\x1b[0m\n'}
+[0.179002] (work01) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/work01_teacher.dir/src/work01_teacher.cpp.o\x1b[0m\n'}
+[0.203951] (-) TimerEvent: {}
+[0.304746] (-) TimerEvent: {}
+[0.405198] (-) TimerEvent: {}
+[0.508443] (-) TimerEvent: {}
+[0.615824] (-) TimerEvent: {}
+[0.717966] (-) TimerEvent: {}
+[0.819599] (-) TimerEvent: {}
+[0.921906] (-) TimerEvent: {}
+[1.025174] (-) TimerEvent: {}
+[1.125886] (-) TimerEvent: {}
+[1.227444] (-) TimerEvent: {}
+[1.327879] (-) TimerEvent: {}
+[1.428636] (-) TimerEvent: {}
+[1.530327] (-) TimerEvent: {}
+[1.633112] (-) TimerEvent: {}
+[1.736238] (-) TimerEvent: {}
+[1.837088] (-) TimerEvent: {}
+[1.953310] (-) TimerEvent: {}
+[2.065270] (-) TimerEvent: {}
+[2.168992] (-) TimerEvent: {}
+[2.269604] (-) TimerEvent: {}
+[2.376146] (-) TimerEvent: {}
+[2.477790] (-) TimerEvent: {}
+[2.578519] (-) TimerEvent: {}
+[2.681779] (-) TimerEvent: {}
+[2.785543] (-) TimerEvent: {}
+[2.886629] (-) TimerEvent: {}
+[2.987535] (-) TimerEvent: {}
+[3.087965] (-) TimerEvent: {}
+[3.189244] (-) TimerEvent: {}
+[3.290485] (-) TimerEvent: {}
+[3.391752] (-) TimerEvent: {}
+[3.492171] (-) TimerEvent: {}
+[3.604179] (-) TimerEvent: {}
+[3.705289] (-) TimerEvent: {}
+[3.806867] (-) TimerEvent: {}
+[3.908483] (-) TimerEvent: {}
+[4.012684] (-) TimerEvent: {}
+[4.118456] (-) TimerEvent: {}
+[4.218956] (-) TimerEvent: {}
+[4.319597] (-) TimerEvent: {}
+[4.420469] (-) TimerEvent: {}
+[4.521525] (-) TimerEvent: {}
+[4.626499] (-) TimerEvent: {}
+[4.727018] (-) TimerEvent: {}
+[4.828123] (-) TimerEvent: {}
+[4.929961] (-) TimerEvent: {}
+[5.030846] (-) TimerEvent: {}
+[5.131575] (-) TimerEvent: {}
+[5.234062] (-) TimerEvent: {}
+[5.335040] (-) TimerEvent: {}
+[5.435748] (-) TimerEvent: {}
+[5.539152] (-) TimerEvent: {}
+[5.639549] (-) TimerEvent: {}
+[5.740352] (-) TimerEvent: {}
+[5.842593] (-) TimerEvent: {}
+[5.948653] (-) TimerEvent: {}
+[6.049180] (-) TimerEvent: {}
+[6.149951] (-) TimerEvent: {}
+[6.250713] (-) TimerEvent: {}
+[6.352001] (-) TimerEvent: {}
+[6.452741] (-) TimerEvent: {}
+[6.534329] (work01) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable work01_teacher\x1b[0m\n'}
+[6.553180] (-) TimerEvent: {}
+[6.654273] (-) TimerEvent: {}
+[6.755122] (-) TimerEvent: {}
+[6.857082] (-) TimerEvent: {}
+[6.869275] (work01) StdoutLine: {'line': b'[ 75%] Built target work01_teacher\n'}
+[6.958459] (-) TimerEvent: {}
+[7.059002] (-) TimerEvent: {}
+[7.160235] (-) TimerEvent: {}
+[7.261511] (-) TimerEvent: {}
+[7.363384] (-) TimerEvent: {}
+[7.464120] (-) TimerEvent: {}
+[7.565094] (-) TimerEvent: {}
+[7.667404] (-) TimerEvent: {}
+[7.767907] (-) TimerEvent: {}
+[7.869307] (-) TimerEvent: {}
+[7.969632] (-) TimerEvent: {}
+[8.070037] (-) TimerEvent: {}
+[8.170356] (-) TimerEvent: {}
+[8.271978] (-) TimerEvent: {}
+[8.372692] (-) TimerEvent: {}
+[8.474139] (-) TimerEvent: {}
+[8.576608] (-) TimerEvent: {}
+[8.678198] (-) TimerEvent: {}
+[8.778927] (-) TimerEvent: {}
+[8.880068] (-) TimerEvent: {}
+[8.981010] (-) TimerEvent: {}
+[9.088579] (-) TimerEvent: {}
+[9.198206] (-) TimerEvent: {}
+[9.302636] (-) TimerEvent: {}
+[9.407824] (-) TimerEvent: {}
+[9.509629] (-) TimerEvent: {}
+[9.620150] (-) TimerEvent: {}
+[9.724059] (-) TimerEvent: {}
+[9.836734] (-) TimerEvent: {}
+[9.947472] (-) TimerEvent: {}
+[10.053970] (-) TimerEvent: {}
+[10.155263] (-) TimerEvent: {}
+[10.259668] (-) TimerEvent: {}
+[10.368881] (-) TimerEvent: {}
+[10.476612] (-) TimerEvent: {}
+[10.586515] (-) TimerEvent: {}
+[10.646107] (work01) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable work01_student\x1b[0m\n'}
+[10.688581] (-) TimerEvent: {}
+[10.798832] (-) TimerEvent: {}
+[10.899996] (-) TimerEvent: {}
+[10.977738] (work01) StdoutLine: {'line': b'[100%] Built target work01_student\n'}
+[10.993757] (work01) CommandEnded: {'returncode': 0}
+[10.997528] (work01) JobProgress: {'identifier': 'work01', 'progress': 'install'}
+[11.001385] (-) TimerEvent: {}
+[11.007656] (work01) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jason/ros2_learning/work01/build/work01'], 'cwd': '/home/jason/ros2_learning/work01/build/work01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/ros2_learning'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jason-virtual-machine:@/tmp/.ICE-unix/1415,unix/jason-virtual-machine:/tmp/.ICE-unix/1415'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b23eb0bd_e760_49cb_b1af_d43dc4aa6455'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2NMBY3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.272'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/ros2_learning/work01/build/work01'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.016372] (work01) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.017118] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/lib/work01/work01_teacher\n'}
+[11.019532] (work01) StdoutLine: {'line': b'-- Set runtime path of "/home/jason/ros2_learning/work01/install/work01/lib/work01/work01_teacher" to ""\n'}
+[11.019654] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/lib/work01/work01_student\n'}
+[11.022042] (work01) StdoutLine: {'line': b'-- Set runtime path of "/home/jason/ros2_learning/work01/install/work01/lib/work01/work01_student" to ""\n'}
+[11.022229] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/ament_index/resource_index/package_run_dependencies/work01\n'}
+[11.023308] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/ament_index/resource_index/parent_prefix_path/work01\n'}
+[11.024388] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/environment/ament_prefix_path.sh\n'}
+[11.024661] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/environment/ament_prefix_path.dsv\n'}
+[11.025152] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/environment/path.sh\n'}
+[11.025863] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/environment/path.dsv\n'}
+[11.026180] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.bash\n'}
+[11.027194] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.sh\n'}
+[11.027669] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.zsh\n'}
+[11.028051] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.dsv\n'}
+[11.028559] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/package.dsv\n'}
+[11.029120] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/ament_index/resource_index/packages/work01\n'}
+[11.029377] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/cmake/work01Config.cmake\n'}
+[11.029962] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/cmake/work01Config-version.cmake\n'}
+[11.030243] (work01) StdoutLine: {'line': b'-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/package.xml\n'}
+[11.034534] (work01) CommandEnded: {'returncode': 0}
+[11.059653] (work01) JobEnded: {'identifier': 'work01', 'rc': 0}
+[11.060886] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/work01_student.dir/src/work01_student.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/work01_teacher.dir/src/work01_teacher.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable work01_teacher[0m
+[ 75%] Built target work01_teacher

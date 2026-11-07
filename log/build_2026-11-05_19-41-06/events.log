@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.002130] (work01) JobQueued: {'identifier': 'work01', 'dependencies': OrderedDict()}
+[0.002197] (work01) JobStarted: {'identifier': 'work01'}
+[0.009663] (work01) JobProgress: {'identifier': 'work01', 'progress': 'cmake'}
+[0.011019] (work01) JobProgress: {'identifier': 'work01', 'progress': 'build'}
+[0.012525] (work01) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jason/ros2_learning/work01/build/work01', '--', '-j2', '-l2'], 'cwd': '/home/jason/ros2_learning/work01/build/work01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jason-virtual-machine:@/tmp/.ICE-unix/1415,unix/jason-virtual-machine:/tmp/.ICE-unix/1415'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/703a8664_aa11_42c0_b32e_06a5e62db70c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2NMBY3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.259'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/ros2_learning/work01/build/work01'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.073375] (work01) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target work01_student\x1b[0m\n'}
+[0.090363] (work01) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target work01_teacher\x1b[0m\n'}
+[0.090522] (work01) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/work01_student.dir/src/work01_student.cpp.o\x1b[0m\n'}
+[0.106116] (-) TimerEvent: {}
+[0.127064] (work01) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/work01_teacher.dir/src/work01_teacher.cpp.o\x1b[0m\n'}
+[0.206581] (-) TimerEvent: {}
+[0.307892] (-) TimerEvent: {}
+[0.410369] (-) TimerEvent: {}
+[0.513366] (-) TimerEvent: {}
+[0.613779] (-) TimerEvent: {}
+[0.716505] (-) TimerEvent: {}
+[0.817776] (-) TimerEvent: {}
+[0.919735] (-) TimerEvent: {}
+[1.020235] (-) TimerEvent: {}
+[1.121421] (-) TimerEvent: {}
+[1.224063] (-) TimerEvent: {}
+[1.330922] (-) TimerEvent: {}
+[1.431949] (-) TimerEvent: {}
+[1.532698] (-) TimerEvent: {}
+[1.633158] (-) TimerEvent: {}
+[1.734142] (-) TimerEvent: {}
+[1.836322] (-) TimerEvent: {}
+[1.940392] (-) TimerEvent: {}
+[2.043006] (-) TimerEvent: {}
+[2.145496] (-) TimerEvent: {}
+[2.246393] (-) TimerEvent: {}
+[2.350462] (-) TimerEvent: {}
+[2.451810] (-) TimerEvent: {}
+[2.553066] (-) TimerEvent: {}
+[2.655269] (-) TimerEvent: {}
+[2.758923] (-) TimerEvent: {}
+[2.862520] (-) TimerEvent: {}
+[2.967520] (-) TimerEvent: {}
+[3.072677] (-) TimerEvent: {}
+[3.175840] (-) TimerEvent: {}
+[3.276302] (-) TimerEvent: {}
+[3.376879] (-) TimerEvent: {}
+[3.480988] (-) TimerEvent: {}
+[3.581515] (-) TimerEvent: {}
+[3.682020] (-) TimerEvent: {}
+[3.786071] (-) TimerEvent: {}
+[3.887294] (-) TimerEvent: {}
+[3.988463] (-) TimerEvent: {}
+[4.076735] (work01) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:6:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.077080] (work01) StderrLine: {'line': b'    6 |     \x1b[01;31m\x1b[Ki\x1b[m\x1b[K++;\n'}
+[4.077228] (work01) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.086857] (work01) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kt::t(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.087192] (work01) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:9:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmingyue_t_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.087442] (work01) StderrLine: {'line': b'    9 |         \x1b[01;31m\x1b[Kmingyue_t_\x1b[m\x1b[K=this->create_publisher<std_msgs::msg::String>("mingyue",10);\n'}
+[4.087623] (work01) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.089236] (-) TimerEvent: {}
+[4.107248] (work01) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid t::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.107576] (work01) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:18:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmingyue_t_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.109852] (work01) StderrLine: {'line': b'   18 |         \x1b[01;31m\x1b[Kmingyue_t_\x1b[m\x1b[K->publish(message1);\n'}
+[4.110067] (work01) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.189539] (-) TimerEvent: {}
+[4.270526] (work01) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/ros2_learning/work01/src/work01/src/work01_student.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid s::command_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.270816] (work01) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/ros2_learning/work01/src/work01/src/work01_student.cpp:14:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.270986] (work01) StderrLine: {'line': b'   14 |         if(msg->data == "mingyue") \x1b[01;31m\x1b[Kspeed\x1b[m\x1b[K=0.2f;\n'}
+[4.271117] (work01) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.290529] (-) TimerEvent: {}
+[4.391118] (-) TimerEvent: {}
+[4.492265] (-) TimerEvent: {}
+[4.593002] (-) TimerEvent: {}
+[4.694255] (-) TimerEvent: {}
+[4.795551] (-) TimerEvent: {}
+[4.899382] (-) TimerEvent: {}
+[5.000268] (-) TimerEvent: {}
+[5.044383] (work01) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/work01_teacher.dir/build.make:76: CMakeFiles/work01_teacher.dir/src/work01_teacher.cpp.o] Error 1\n'}
+[5.045170] (work01) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/work01_teacher.dir/all] Error 2\n'}
+[5.045365] (work01) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.113350] (-) TimerEvent: {}
+[5.219343] (-) TimerEvent: {}
+[5.331812] (-) TimerEvent: {}
+[5.440939] (-) TimerEvent: {}
+[5.549139] (-) TimerEvent: {}
+[5.656844] (-) TimerEvent: {}
+[5.766280] (-) TimerEvent: {}
+[5.868756] (-) TimerEvent: {}
+[5.969098] (-) TimerEvent: {}
+[6.077273] (-) TimerEvent: {}
+[6.186007] (-) TimerEvent: {}
+[6.295752] (-) TimerEvent: {}
+[6.404466] (-) TimerEvent: {}
+[6.508380] (-) TimerEvent: {}
+[6.623047] (-) TimerEvent: {}
+[6.727966] (-) TimerEvent: {}
+[6.838754] (-) TimerEvent: {}
+[6.939504] (-) TimerEvent: {}
+[6.940264] (work01) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/work01_student.dir/build.make:76: CMakeFiles/work01_student.dir/src/work01_student.cpp.o] Error 1\n'}
+[6.940663] (work01) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/work01_student.dir/all] Error 2\n'}
+[6.940939] (work01) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.959879] (work01) CommandEnded: {'returncode': 2}
+[6.974991] (work01) JobEnded: {'identifier': 'work01', 'rc': 2}
+[6.996120] (-) EventReactorShutdown: {}

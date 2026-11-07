@@ -1,0 +1,4 @@
+Invoking command in '/home/jason/ros2_learning/work01/build/work01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/ros2_learning/work01/build/work01 -- -j2 -l2
+Invoked command in '/home/jason/ros2_learning/work01/build/work01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/ros2_learning/work01/build/work01 -- -j2 -l2
+Invoking command in '/home/jason/ros2_learning/work01/build/work01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/ros2_learning/work01/build/work01
+Invoked command in '/home/jason/ros2_learning/work01/build/work01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/ros2_learning/work01/build/work01

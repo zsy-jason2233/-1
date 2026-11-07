@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target work01_student[0m
+[ 50%] Built target work01_teacher
+[ 75%] [32mBuilding CXX object CMakeFiles/work01_student.dir/src/work01_student.cpp.o[0m
+[100%] [32m[1mLinking CXX executable work01_student[0m
+[100%] Built target work01_student
+-- Install configuration: ""
+-- Installing: /home/jason/ros2_learning/work01/install/work01/lib/work01/work01_teacher
+-- Set runtime path of "/home/jason/ros2_learning/work01/install/work01/lib/work01/work01_teacher" to ""
+-- Installing: /home/jason/ros2_learning/work01/install/work01/lib/work01/work01_student
+-- Set runtime path of "/home/jason/ros2_learning/work01/install/work01/lib/work01/work01_student" to ""
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/ament_index/resource_index/package_run_dependencies/work01
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/ament_index/resource_index/parent_prefix_path/work01
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/environment/path.sh
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/environment/path.dsv
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.bash
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.sh
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.zsh
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.dsv
+-- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/package.dsv
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/ament_index/resource_index/packages/work01
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/cmake/work01Config.cmake
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/cmake/work01Config-version.cmake
+-- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/package.xml

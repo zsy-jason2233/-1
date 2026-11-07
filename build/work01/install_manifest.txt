@@ -1,0 +1,17 @@
+/home/jason/ros2_learning/work01/install/work01/lib/work01/work01_teacher
+/home/jason/ros2_learning/work01/install/work01/lib/work01/work01_student
+/home/jason/ros2_learning/work01/install/work01/share/ament_index/resource_index/package_run_dependencies/work01
+/home/jason/ros2_learning/work01/install/work01/share/ament_index/resource_index/parent_prefix_path/work01
+/home/jason/ros2_learning/work01/install/work01/share/work01/environment/ament_prefix_path.sh
+/home/jason/ros2_learning/work01/install/work01/share/work01/environment/ament_prefix_path.dsv
+/home/jason/ros2_learning/work01/install/work01/share/work01/environment/path.sh
+/home/jason/ros2_learning/work01/install/work01/share/work01/environment/path.dsv
+/home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.bash
+/home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.sh
+/home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.zsh
+/home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.dsv
+/home/jason/ros2_learning/work01/install/work01/share/work01/package.dsv
+/home/jason/ros2_learning/work01/install/work01/share/ament_index/resource_index/packages/work01
+/home/jason/ros2_learning/work01/install/work01/share/work01/cmake/work01Config.cmake
+/home/jason/ros2_learning/work01/install/work01/share/work01/cmake/work01Config-version.cmake
+/home/jason/ros2_learning/work01/install/work01/share/work01/package.xml

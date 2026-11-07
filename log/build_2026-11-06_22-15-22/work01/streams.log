@@ -1,0 +1,24 @@
+[0.022s] Invoking command in '/home/jason/ros2_learning/work01/build/work01': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/ros2_learning/work01/build/work01 -- -j2 -l2
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target work01_teacher[0m
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target work01_student[0m
+[0.198s] [ 25%] [32mBuilding CXX object CMakeFiles/work01_student.dir/src/work01_student.cpp.o[0m
+[0.207s] [ 50%] [32mBuilding CXX object CMakeFiles/work01_teacher.dir/src/work01_teacher.cpp.o[0m
+[4.657s] [01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:[m[K In constructor ‘[01m[Kt::t(std::string)[m[K’:
+[4.658s] [01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:8:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmingyue_t_[m[K’ was not declared in this scope
+[4.658s]     8 |         [01;31m[Kmingyue_t_[m[K=this->create_publisher<std_msgs::msg::String>("mingyue",10);
+[4.658s]       |         [01;31m[K^~~~~~~~~~[m[K
+[4.679s] [01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:[m[K In member function ‘[01m[Kvoid t::timer_callback()[m[K’:
+[4.679s] [01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_teacher.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmingyue_t_[m[K’ was not declared in this scope
+[4.679s]    17 |         [01;31m[Kmingyue_t_[m[K->publish(message1);
+[4.679s]       |         [01;31m[K^~~~~~~~~~[m[K
+[4.783s] [01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_student.cpp:[m[K In member function ‘[01m[Kvoid s::command_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.783s] [01m[K/home/jason/ros2_learning/work01/src/work01/src/work01_student.cpp:14:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+[4.783s]    14 |         if(msg->data == "mingyue") [01;31m[Kspeed[m[K=0.2f;
+[4.783s]       |                                    [01;31m[K^~~~~[m[K
+[5.783s] gmake[2]: *** [CMakeFiles/work01_teacher.dir/build.make:76: CMakeFiles/work01_teacher.dir/src/work01_teacher.cpp.o] Error 1
+[5.785s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/work01_teacher.dir/all] Error 2
+[5.785s] gmake[1]: *** Waiting for unfinished jobs....
+[7.758s] gmake[2]: *** [CMakeFiles/work01_student.dir/build.make:76: CMakeFiles/work01_student.dir/src/work01_student.cpp.o] Error 1
+[7.758s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/work01_student.dir/all] Error 2
+[7.758s] gmake: *** [Makefile:146: all] Error 2
+[7.761s] Invoked command in '/home/jason/ros2_learning/work01/build/work01' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jason/ros2_learning/work01/build/work01 -- -j2 -l2

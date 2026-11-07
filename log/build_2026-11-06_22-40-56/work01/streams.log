@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/jason/ros2_learning/work01/build/work01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/ros2_learning/work01/build/work01 -- -j2 -l2
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target work01_student[0m
+[0.116s] [ 75%] Built target work01_student
+[0.117s] [100%] Built target work01_teacher
+[0.134s] Invoked command in '/home/jason/ros2_learning/work01/build/work01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/ros2_learning/work01/build/work01 -- -j2 -l2
+[0.142s] Invoking command in '/home/jason/ros2_learning/work01/build/work01': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/ros2_learning/work01/build/work01
+[0.151s] -- Install configuration: ""
+[0.151s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/lib/work01/work01_teacher
+[0.151s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/lib/work01/work01_student
+[0.152s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/ament_index/resource_index/package_run_dependencies/work01
+[0.152s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/ament_index/resource_index/parent_prefix_path/work01
+[0.153s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/environment/ament_prefix_path.sh
+[0.153s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/environment/ament_prefix_path.dsv
+[0.153s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/environment/path.sh
+[0.154s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/environment/path.dsv
+[0.154s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.bash
+[0.154s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.sh
+[0.154s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.zsh
+[0.154s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/local_setup.dsv
+[0.154s] -- Installing: /home/jason/ros2_learning/work01/install/work01/share/work01/package.dsv
+[0.154s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/ament_index/resource_index/packages/work01
+[0.154s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/cmake/work01Config.cmake
+[0.154s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/cmake/work01Config-version.cmake
+[0.154s] -- Up-to-date: /home/jason/ros2_learning/work01/install/work01/share/work01/package.xml
+[0.157s] Invoked command in '/home/jason/ros2_learning/work01/build/work01' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/ros2_learning/work01/build/work01
